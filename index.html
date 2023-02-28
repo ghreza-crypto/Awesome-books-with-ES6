@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <a href="#">Awesome Books</a>
+            <ul>
+                <li><a href="#" id="list-link">List</a></li>
+                <li><a href="#" id="add-link">Add new </a></li>
+                <li><a href="#" id="contact-link">Contact</a> </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="bookList">
+        <h2 class="listTitle">All Awesome Books</h2>
+        <div class="bookList noborder">
+            <ul id="books-list"></ul>
+        </div>
+    </section>
+
+
+    <section>
+        <form id="add-book-form" class="addBook">
+            <h2>Awesome Books</h2>
+            <input type="text" id="title" placeholder="Title" required /><br><br>
+            <input type="text" id="author" placeholder="Author" required /><br><br>
+            <button type="submit">Add</button>
+        </form>
+    </section>
+
+    <section class="contact" style="display: none;">
+        <h2>Contact Information</h2>
+        <p>Do have any question or you just want to say Hello ?</p>
+        <p>You can reach out to us</p>
+        <ul>
+            <li>Our email: mail@mail.com</li>
+            <li>Our phone number: 044444435</li>
+            <li>Our address: Street number 34, City,Country</li>
+        </ul>
+    </section>
+    <footer>
+        Copyright
+    </footer>
+    <script src="app.js"></script>
+    <script src="spa.js"></script>
+</body>
+
+</html>

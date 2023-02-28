@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+.listTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  width: 20%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookList {
+  border: 3px solid black;
+  width: 100%;
+}
+
+.bookList > div {
+  max-width: 80%;
+  margin: 0 auto 2rem;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  padding: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+footer {
+  border: 3px solid black;
+  padding: 10px;
+  margin-top: 7rem;
+}
